@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95C66D91ADE4E3F00C22698 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66D81ADE4E3F00C22698 /* CoreServices.framework */; };
+		C95C66DB1ADE4E4600C22698 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66DA1ADE4E4600C22698 /* SceneKit.framework */; };
+		C95C66DD1ADE4E5000C22698 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66DC1ADE4E5000C22698 /* SpriteKit.framework */; };
+		C95C66DF1ADE4E5900C22698 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66DE1ADE4E5900C22698 /* GameController.framework */; };
+		C95C66E11ADE4E6200C22698 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66E01ADE4E6200C22698 /* QuartzCore.framework */; };
+		C95C66E31ADE4E6D00C22698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66E21ADE4E6D00C22698 /* Foundation.framework */; };
+		C95C66E51ADE4E9100C22698 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66E41ADE4E9100C22698 /* AppKit.framework */; };
+		C95C66E71ADE4E9800C22698 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66E61ADE4E9800C22698 /* GLKit.framework */; };
+		C95C66E91ADE4EA000C22698 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95C66E81ADE4EA000C22698 /* Cocoa.framework */; };
+		C98ADDDB1AF93ED0008EB53A /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = C98ADDDA1AF93ED0008EB53A /* Sounds */; };
+		C998EC861ADE2F9500CF4081 /* AppDelegateOSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C998EC851ADE2F9500CF4081 /* AppDelegateOSX.swift */; };
+		C998EC8C1ADE2F9500CF4081 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C998EC8B1ADE2F9500CF4081 /* art.scnassets */; };
+		C998EC8E1ADE2F9500CF4081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C998EC8D1ADE2F9500CF4081 /* Images.xcassets */; };
+		C998EC911ADE2F9500CF4081 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C998EC8F1ADE2F9500CF4081 /* MainMenu.xib */; };
+		C998EC9D1ADE2F9500CF4081 /* BananasSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C998EC9C1ADE2F9500CF4081 /* BananasSwiftTests.swift */; };
+		C9AE9A131ADF976700C39126 /* AAPLGameSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE9A121ADF976700C39126 /* AAPLGameSimulation.swift */; };
+		C9B258A21ADEB24600CF008E /* AAPLAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B258A11ADEB24600CF008E /* AAPLAppDelegate.swift */; };
+		C9B258A41ADEB3B200CF008E /* AAPLSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B258A31ADEB3B200CF008E /* AAPLSceneView.swift */; };
+		C9D906611AE38B890065F55F /* AAPLInGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D906601AE38B890065F55F /* AAPLInGameScene.swift */; };
+		C9D906631AE4E4AE0065F55F /* AAPLMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D906621AE4E4AE0065F55F /* AAPLMainMenu.swift */; };
+		C9D906651AE4E4C20065F55F /* AAPLPauseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D906641AE4E4C20065F55F /* AAPLPauseMenu.swift */; };
+		C9D906671AE4E4D70065F55F /* AAPLPostGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D906661AE4E4D70065F55F /* AAPLPostGameMenu.swift */; };
+		C9DC29661AF5370D00F3BB83 /* AAPLMonkeyCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC29651AF5370D00F3BB83 /* AAPLMonkeyCharacter.swift */; };
+		C9DC29681AF5419B00F3BB83 /* AAPLCoconut.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC29671AF5419B00F3BB83 /* AAPLCoconut.swift */; };
+		C9FDA1DD1AE773A500169153 /* AAPLGameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FDA1DC1AE773A500169153 /* AAPLGameLevel.swift */; };
+		C9FDA1DF1AE9321500169153 /* AAPLPlayerCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FDA1DE1AE9321500169153 /* AAPLPlayerCharacter.swift */; };
+		C9FDA1E11AE9331900169153 /* AAPLSkinnedCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FDA1E01AE9331900169153 /* AAPLSkinnedCharacter.swift */; };
+		C9FDA1E31AEBCAD000169153 /* AAPLMathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FDA1E21AEBCAD000169153 /* AAPLMathUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C998EC971ADE2F9500CF4081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C998EC781ADE2F9500CF4081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C998EC7F1ADE2F9500CF4081;
+			remoteInfo = BananasSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C95C66D81ADE4E3F00C22698 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		C95C66DA1ADE4E4600C22698 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		C95C66DC1ADE4E5000C22698 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C95C66DE1ADE4E5900C22698 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		C95C66E01ADE4E6200C22698 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C95C66E21ADE4E6D00C22698 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C95C66E41ADE4E9100C22698 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C95C66E61ADE4E9800C22698 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C95C66E81ADE4EA000C22698 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C98ADDDA1AF93ED0008EB53A /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		C998EC801ADE2F9500CF4081 /* BananasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BananasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C998EC841ADE2F9500CF4081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C998EC851ADE2F9500CF4081 /* AppDelegateOSX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegateOSX.swift; path = "../Bananas OSX/AppDelegateOSX.swift"; sourceTree = "<group>"; };
+		C998EC8B1ADE2F9500CF4081 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = Common/art.scnassets; sourceTree = SOURCE_ROOT; };
+		C998EC8D1ADE2F9500CF4081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C998EC901ADE2F9500CF4081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C998EC961ADE2F9500CF4081 /* BananasSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananasSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C998EC9B1ADE2F9500CF4081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C998EC9C1ADE2F9500CF4081 /* BananasSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananasSwiftTests.swift; sourceTree = "<group>"; };
+		C9AE9A121ADF976700C39126 /* AAPLGameSimulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLGameSimulation.swift; sourceTree = "<group>"; };
+		C9B258A11ADEB24600CF008E /* AAPLAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLAppDelegate.swift; sourceTree = "<group>"; };
+		C9B258A31ADEB3B200CF008E /* AAPLSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSceneView.swift; sourceTree = "<group>"; };
+		C9D906601AE38B890065F55F /* AAPLInGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLInGameScene.swift; sourceTree = "<group>"; };
+		C9D906621AE4E4AE0065F55F /* AAPLMainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMainMenu.swift; sourceTree = "<group>"; };
+		C9D906641AE4E4C20065F55F /* AAPLPauseMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPauseMenu.swift; sourceTree = "<group>"; };
+		C9D906661AE4E4D70065F55F /* AAPLPostGameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPostGameMenu.swift; sourceTree = "<group>"; };
+		C9DC29651AF5370D00F3BB83 /* AAPLMonkeyCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMonkeyCharacter.swift; sourceTree = "<group>"; };
+		C9DC29671AF5419B00F3BB83 /* AAPLCoconut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLCoconut.swift; sourceTree = "<group>"; };
+		C9FDA1DC1AE773A500169153 /* AAPLGameLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLGameLevel.swift; sourceTree = "<group>"; };
+		C9FDA1DE1AE9321500169153 /* AAPLPlayerCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPlayerCharacter.swift; sourceTree = "<group>"; };
+		C9FDA1E01AE9331900169153 /* AAPLSkinnedCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSkinnedCharacter.swift; sourceTree = "<group>"; };
+		C9FDA1E21AEBCAD000169153 /* AAPLMathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMathUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C998EC7D1ADE2F9500CF4081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95C66E91ADE4EA000C22698 /* Cocoa.framework in Frameworks */,
+				C95C66E71ADE4E9800C22698 /* GLKit.framework in Frameworks */,
+				C95C66E51ADE4E9100C22698 /* AppKit.framework in Frameworks */,
+				C95C66D91ADE4E3F00C22698 /* CoreServices.framework in Frameworks */,
+				C95C66DB1ADE4E4600C22698 /* SceneKit.framework in Frameworks */,
+				C95C66DD1ADE4E5000C22698 /* SpriteKit.framework in Frameworks */,
+				C95C66DF1ADE4E5900C22698 /* GameController.framework in Frameworks */,
+				C95C66E11ADE4E6200C22698 /* QuartzCore.framework in Frameworks */,
+				C95C66E31ADE4E6D00C22698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C998EC931ADE2F9500CF4081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95C66EA1ADE552200C22698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C95C66E81ADE4EA000C22698 /* Cocoa.framework */,
+				C95C66E61ADE4E9800C22698 /* GLKit.framework */,
+				C95C66E41ADE4E9100C22698 /* AppKit.framework */,
+				C95C66E21ADE4E6D00C22698 /* Foundation.framework */,
+				C95C66E01ADE4E6200C22698 /* QuartzCore.framework */,
+				C95C66DE1ADE4E5900C22698 /* GameController.framework */,
+				C95C66DC1ADE4E5000C22698 /* SpriteKit.framework */,
+				C95C66DA1ADE4E4600C22698 /* SceneKit.framework */,
+				C95C66D81ADE4E3F00C22698 /* CoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C998EC771ADE2F9500CF4081 = {
+			isa = PBXGroup;
+			children = (
+				C998ECA61ADE300100CF4081 /* Bananas - Shared */,
+				C998ECAB1ADE474300CF4081 /* Bananas - IOS */,
+				C998EC821ADE2F9500CF4081 /* BananasSwift - OSX */,
+				C95C66EA1ADE552200C22698 /* Frameworks */,
+				C998EC991ADE2F9500CF4081 /* BananasSwiftTests */,
+				C998EC811ADE2F9500CF4081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C998EC811ADE2F9500CF4081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C998EC801ADE2F9500CF4081 /* BananasSwift.app */,
+				C998EC961ADE2F9500CF4081 /* BananasSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C998EC821ADE2F9500CF4081 /* BananasSwift - OSX */ = {
+			isa = PBXGroup;
+			children = (
+				C998EC851ADE2F9500CF4081 /* AppDelegateOSX.swift */,
+				C998EC8D1ADE2F9500CF4081 /* Images.xcassets */,
+				C998EC8F1ADE2F9500CF4081 /* MainMenu.xib */,
+				C998EC831ADE2F9500CF4081 /* Supporting Files */,
+			);
+			name = "BananasSwift - OSX";
+			path = BananasSwift;
+			sourceTree = "<group>";
+		};
+		C998EC831ADE2F9500CF4081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C998EC841ADE2F9500CF4081 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C998EC991ADE2F9500CF4081 /* BananasSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C998EC9C1ADE2F9500CF4081 /* BananasSwiftTests.swift */,
+				C998EC9A1ADE2F9500CF4081 /* Supporting Files */,
+			);
+			path = BananasSwiftTests;
+			sourceTree = "<group>";
+		};
+		C998EC9A1ADE2F9500CF4081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C998EC9B1ADE2F9500CF4081 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C998ECA61ADE300100CF4081 /* Bananas - Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C998ECAA1ADE455000CF4081 /* Characters */,
+				C998ECA91ADE454400CF4081 /* App & View */,
+				C998ECA81ADE312F00CF4081 /* SpriteKit Overlay UI */,
+				C98ADDDA1AF93ED0008EB53A /* Sounds */,
+				C998EC8B1ADE2F9500CF4081 /* art.scnassets */,
+				C9AE9A121ADF976700C39126 /* AAPLGameSimulation.swift */,
+				C9FDA1DC1AE773A500169153 /* AAPLGameLevel.swift */,
+				C9FDA1E21AEBCAD000169153 /* AAPLMathUtils.swift */,
+			);
+			name = "Bananas - Shared";
+			path = Common;
+			sourceTree = SOURCE_ROOT;
+		};
+		C998ECA81ADE312F00CF4081 /* SpriteKit Overlay UI */ = {
+			isa = PBXGroup;
+			children = (
+				C9D906601AE38B890065F55F /* AAPLInGameScene.swift */,
+				C9D906621AE4E4AE0065F55F /* AAPLMainMenu.swift */,
+				C9D906641AE4E4C20065F55F /* AAPLPauseMenu.swift */,
+				C9D906661AE4E4D70065F55F /* AAPLPostGameMenu.swift */,
+			);
+			name = "SpriteKit Overlay UI";
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C998ECA91ADE454400CF4081 /* App & View */ = {
+			isa = PBXGroup;
+			children = (
+				C9B258A11ADEB24600CF008E /* AAPLAppDelegate.swift */,
+				C9B258A31ADEB3B200CF008E /* AAPLSceneView.swift */,
+			);
+			name = "App & View";
+			path = "App&View";
+			sourceTree = "<group>";
+		};
+		C998ECAA1ADE455000CF4081 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				C9FDA1DE1AE9321500169153 /* AAPLPlayerCharacter.swift */,
+				C9FDA1E01AE9331900169153 /* AAPLSkinnedCharacter.swift */,
+				C9DC29651AF5370D00F3BB83 /* AAPLMonkeyCharacter.swift */,
+				C9DC29671AF5419B00F3BB83 /* AAPLCoconut.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		C998ECAB1ADE474300CF4081 /* Bananas - IOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Bananas - IOS";
+			path = "Bananas IOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C998EC7F1ADE2F9500CF4081 /* BananasSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C998ECA01ADE2F9500CF4081 /* Build configuration list for PBXNativeTarget "BananasSwift" */;
+			buildPhases = (
+				C998EC7C1ADE2F9500CF4081 /* Sources */,
+				C998EC7D1ADE2F9500CF4081 /* Frameworks */,
+				C998EC7E1ADE2F9500CF4081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BananasSwift;
+			productName = BananasSwift;
+			productReference = C998EC801ADE2F9500CF4081 /* BananasSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C998EC951ADE2F9500CF4081 /* BananasSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C998ECA31ADE2F9500CF4081 /* Build configuration list for PBXNativeTarget "BananasSwiftTests" */;
+			buildPhases = (
+				C998EC921ADE2F9500CF4081 /* Sources */,
+				C998EC931ADE2F9500CF4081 /* Frameworks */,
+				C998EC941ADE2F9500CF4081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C998EC981ADE2F9500CF4081 /* PBXTargetDependency */,
+			);
+			name = BananasSwiftTests;
+			productName = BananasSwiftTests;
+			productReference = C998EC961ADE2F9500CF4081 /* BananasSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C998EC781ADE2F9500CF4081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Machina Venefici";
+				TargetAttributes = {
+					C998EC7F1ADE2F9500CF4081 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C998EC951ADE2F9500CF4081 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C998EC7F1ADE2F9500CF4081;
+					};
+				};
+			};
+			buildConfigurationList = C998EC7B1ADE2F9500CF4081 /* Build configuration list for PBXProject "BananasSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C998EC771ADE2F9500CF4081;
+			productRefGroup = C998EC811ADE2F9500CF4081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C998EC7F1ADE2F9500CF4081 /* BananasSwift */,
+				C998EC951ADE2F9500CF4081 /* BananasSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C998EC7E1ADE2F9500CF4081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98ADDDB1AF93ED0008EB53A /* Sounds in Resources */,
+				C998EC8C1ADE2F9500CF4081 /* art.scnassets in Resources */,
+				C998EC8E1ADE2F9500CF4081 /* Images.xcassets in Resources */,
+				C998EC911ADE2F9500CF4081 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C998EC941ADE2F9500CF4081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C998EC7C1ADE2F9500CF4081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FDA1DF1AE9321500169153 /* AAPLPlayerCharacter.swift in Sources */,
+				C9D906611AE38B890065F55F /* AAPLInGameScene.swift in Sources */,
+				C9D906651AE4E4C20065F55F /* AAPLPauseMenu.swift in Sources */,
+				C9DC29681AF5419B00F3BB83 /* AAPLCoconut.swift in Sources */,
+				C9B258A21ADEB24600CF008E /* AAPLAppDelegate.swift in Sources */,
+				C998EC861ADE2F9500CF4081 /* AppDelegateOSX.swift in Sources */,
+				C9D906631AE4E4AE0065F55F /* AAPLMainMenu.swift in Sources */,
+				C9FDA1E11AE9331900169153 /* AAPLSkinnedCharacter.swift in Sources */,
+				C9AE9A131ADF976700C39126 /* AAPLGameSimulation.swift in Sources */,
+				C9D906671AE4E4D70065F55F /* AAPLPostGameMenu.swift in Sources */,
+				C9B258A41ADEB3B200CF008E /* AAPLSceneView.swift in Sources */,
+				C9FDA1DD1AE773A500169153 /* AAPLGameLevel.swift in Sources */,
+				C9FDA1E31AEBCAD000169153 /* AAPLMathUtils.swift in Sources */,
+				C9DC29661AF5370D00F3BB83 /* AAPLMonkeyCharacter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C998EC921ADE2F9500CF4081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C998EC9D1ADE2F9500CF4081 /* BananasSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C998EC981ADE2F9500CF4081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C998EC7F1ADE2F9500CF4081 /* BananasSwift */;
+			targetProxy = C998EC971ADE2F9500CF4081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C998EC8F1ADE2F9500CF4081 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C998EC901ADE2F9500CF4081 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C998EC9E1ADE2F9500CF4081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C998EC9F1ADE2F9500CF4081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C998ECA11ADE2F9500CF4081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BananasSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C998ECA21ADE2F9500CF4081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BananasSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C998ECA41ADE2F9500CF4081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BananasSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananasSwift.app/Contents/MacOS/BananasSwift";
+			};
+			name = Debug;
+		};
+		C998ECA51ADE2F9500CF4081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BananasSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananasSwift.app/Contents/MacOS/BananasSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C998EC7B1ADE2F9500CF4081 /* Build configuration list for PBXProject "BananasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C998EC9E1ADE2F9500CF4081 /* Debug */,
+				C998EC9F1ADE2F9500CF4081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C998ECA01ADE2F9500CF4081 /* Build configuration list for PBXNativeTarget "BananasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C998ECA11ADE2F9500CF4081 /* Debug */,
+				C998ECA21ADE2F9500CF4081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C998ECA31ADE2F9500CF4081 /* Build configuration list for PBXNativeTarget "BananasSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C998ECA41ADE2F9500CF4081 /* Debug */,
+				C998ECA51ADE2F9500CF4081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C998EC781ADE2F9500CF4081 /* Project object */;
+}

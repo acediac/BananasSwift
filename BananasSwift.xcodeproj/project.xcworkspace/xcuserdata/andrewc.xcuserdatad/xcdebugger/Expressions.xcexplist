@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BananasSwift.AAPLGameLevel.(createLevel (BananasSwift.AAPLGameLevel) -&gt; () -&gt; Swift.Optional&lt;ObjectiveC.SCNNode&gt;).(closure #2):AAPLGameLevel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "child as SCNNode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BananasSwift.AAPLGameLevel.setupPathColliders (BananasSwift.AAPLGameLevel)() -&gt; ():AAPLGameLevel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BananasSwift.AAPLGameLevel.(setupPathColliders (BananasSwift.AAPLGameLevel) -&gt; () -&gt; ()).(closure #1):AAPLGameLevel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "child.name">
+            </PersistentString>
+            <PersistentString
+               value = "child as SCNNode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
